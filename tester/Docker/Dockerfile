@@ -65,7 +65,7 @@ ENV CLASSPATH="/home/user/classpath/JLex:${CLASSPATH}"
 ENV CLASSPATH="/home/user/classpath/CUP/java-cup-11b-runtime.jar:${CLASSPATH}"
 ENV CLASSPATH="/home/user/classpath/CUP/java-cup-11b.jar:${CLASSPATH}"
 
-RUN git clone https://github.com/myreen/tda283
+RUN git clone https://github.com/knisht/tda283
 WORKDIR /home/user/tda283/tester
 
 CMD /bin/bash
